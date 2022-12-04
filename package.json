@@ -1,0 +1,28 @@
+{
+  "name": "code-challenge2",
+  "version": "1.0.0",
+  "description": "mini web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KabiruH/wk2CodeChallenge.git"
+  },
+  "keywords": [
+    "JSON",
+    "server",
+    "code",
+    "challenge"
+  ],
+  "author": "Kabiru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KabiruH/wk2CodeChallenge/issues"
+  },
+  "homepage": "https://github.com/KabiruH/wk2CodeChallenge#readme",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}

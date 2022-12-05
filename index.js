@@ -22,7 +22,7 @@ voteButton.addEventListener("click", () => {
     const ID = characters.findIndex((character) => character.id == selectedCharacter.id);
     characters.splice(ID, 1, {
       ...selectedCharacter,
-      votes: parseInt(selectedCharacter.votes) +1,
+      votes: parseInt(selectedCharacter.votes ++),
     });
 
     setCharacterDetails(characters[ID]);

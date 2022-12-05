@@ -1,56 +1,44 @@
 ### Project Title
-
+FlataCuties - Cutest Animals
 
 ### Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+This project identifies the cutest animals and also allows the user to make a vote on the cutest animal, simply by clicking on the vote icon.
 
 ### Prerequisites
-What things you need to install the software and how to install them
+git clone into your local repository with the SSH
+git@github.com:KabiruH/wk2CodeChallenge.git
 
-Give examples
-### Installing
-A step by step series of examples that tell you how to get a development env running
+To run this code, you need to install 
+ - VS Code or other code editor
+ - live server extension on VS code
+ - Command line Interface such as cmd or terminal
 
-Say what the step will be
-
-Give the example
-And repeat
-
-until finished
-End with an example of getting some data out of the system or using it for a little demo
+Also, you need to install the json server
+ - run the code 
+            npm install -g json-server
+    
 
 ### Running the tests
-Explain how to run the automated tests for this system
+Lets begin by running this command to get the backend started: json-server --watch db.json
 
-Break down into end to end tests
-Explain what these tests test and why
+Test your server by visiting this route in the browser: http://localhost:3000/characters
 
-Give an example
-And coding style tests
-Explain what these tests test and why
+If the test is successful, you shoud get a webpage with arrays and objects of the information given.
+The test will also determine if the user (you) is communicating with the server (the webpage)
 
-Give an example
-Deployment
-Add additional notes about how to deploy this on a live system
+To test this code:
+When the code runs correctly, clicking on one of the characters should produce an image of the animal, and a vote button below it
+clicking on the vote button will increase the number of votes, with regards to the clicks made. 
 
-### Built With
-Dropwizard - The web framework used
-Maven - Dependency Management
-ROME - Used to generate RSS Feeds
-Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+
 
 ### Versioning
 We use SemVer for versioning. For the versions available, see the tags on this repository.
 
 ### Authors
-Billie Thompson - Initial work - PurpleBooth
-See also the list of contributors who participated in this project.
+Kabiru H.
 
 ### License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+ISC
 
-### Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc

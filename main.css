@@ -1,0 +1,132 @@
+body {
+    font-style: inherit;
+    padding: 5px;
+    margin: 5px;
+    text-decoration-style: wavy;
+    background-color: rgba(0, 0, 0, 0.852);
+  }
+  
+   
+  h1 {
+    display:contents; 
+    color: white;
+    text-align: center;
+    padding: 24px;
+    text-decoration:blue
+  }
+  
+  #reset {
+    background-color: maroon;
+    padding: 5px 10px;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+  }
+  
+
+  
+  
+  #add {
+    background-color: green;
+    padding: 5px 10px;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  #add:hover {
+    background-color: forestgreen;
+  }
+  
+
+  .characters {
+    height: 99%;
+    width: 29%;
+    background-color: rgba(4, 5, 1, 0.5);
+    border-radius: 10px;
+    text-align: justify;
+  }
+  
+  .details {
+    height: 50%;
+    width: 25%;
+    background-color: rgba(49, 20, 236, 0.119);
+    border-radius: 20px
+    justify-content: space-around
+    align-items: left 
+  }
+  
+
+
+  
+  h2 {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: #01b1f3;
+    max-height: 10%;
+    font-style: italic;
+  }
+  
+  .info {
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .name {
+    width: 90%;
+    height: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .label {
+    font-weight: bold;
+    color: teal;
+    font-size: 17px;
+  }
+  
+  .value {
+    color: rgb(199, 167, 170);
+    font-size: 17px;
+  }
+  
+  #img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #vote {
+    background-color: rgb(1, 125, 98);
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    padding: 5px 40px;
+    border-radius: 10px;
+    border-color: floralwhite;
+  }
+  
+  #vote:hover {
+    background-color: rgba(90, 0, 128, 0.8);
+  }
+  
+  .listItem {
+    color: white;
+    font-size: 24px;
+    margin-left: 24cm;
+    padding: 5px 10px;
+    width: 60%;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .listItem:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  

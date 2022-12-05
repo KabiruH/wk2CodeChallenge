@@ -4,9 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>CutestAnimals</title>
+    <link rel="stylesheet" href="main.css">
+    </head>
 <body>
     
+    <div class="container">
+        <h1 class="text-center text-6xl text-blue-800">Cutest Animals</h1>
+
+        <div class="actions">
+            <button id = 'reset'>Reset Votes</button>
+            <button id = 'add'>Add Votes</button>
+            
+        </div>
+    </div>
+    <div class="content">
+        <div class="characters">
+          <h2>Characters</h2>
+           </div>
+  
+        <div class="details">
+          <h2>Details</h2>
+  
+          <div class="info">
+            <span class="name">
+              <span>
+                <label class="label">ID: </label>
+                <label class="value" id="characterId"> </label>
+              </span>
+              <span>
+                <label class="label">Name: </label>
+                <label class="value" id="characterName"> </label>
+              </span>
+                    <ul></ul>
+              <span>
+                <label class="label">Votes: </label>
+                <label class="value" id="votes"> </label>
+              </span>
+            </span>
+  
+            <img id="img"></img>
+  
+            <button id="vote" >Vote</button>
+          </div>
+        </div>
+      </div>
+  
+    <script src="index.js"></script>
 </body>
 </html>

@@ -18,6 +18,8 @@ body {
     color: white;
     text-align: center;
     padding: 24px;
+    margin-top: 2cm;
+    margin-block-end: 24cm;
     text-decoration:blue
   }
   
@@ -34,7 +36,7 @@ body {
   
   #add {
     background-color: green;
-    padding: 5px 10px;
+    padding: 10px 10px;
     border-radius: 7px;
     color: white;
     font-weight: bold;
@@ -45,7 +47,7 @@ body {
   }
   
 
-  .animals {
+  .characters {
     height: 99%;
     width: 29%;
     background-color: rgba(231, 14, 170, 0.5);
@@ -54,56 +56,58 @@ body {
   }
   
   .details {
-    height: 50%;
-    width: 25%;
+    height: 90%;
+    width: 30%;
     background-color: rgba(49, 20, 236, 0.119);
-    border-radius: 20px
-    justify-content: space-around
-    align-items: left 
+    border-radius: 90px;
+    justify-items: normal;
+    align-items: center 
   }
   
   
   h2 {
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
+    text-align: left;
+    margin: 2%;
+    padding: 12px;
     color: #01b1f3;
     max-height: 10%;
-    font-style: italic;
+    font-style: bold;
   }
   
   .info {
-    width: 90%;
-    height: 80%;
-    margin: auto;
+    width: 92%;
+    height: 95%;
+    margin: 2cm;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    align-items: left;
+    max-height: 12%;
   }
   
   .name {
-    width: 90%;
-    height: 18%;
-    display: flex;
+    width: 100%;
+    height: 20%;
+    display: inline-block;
     justify-content: space-between;
     align-items: center;
+    margin-right: 2cm;
   }
   
   .label {
     font-weight: bold;
     color: teal;
-    font-size: 17px;
+    font-size: 16px;
+    margin-right: 1px;
   }
   
   .value {
     color: rgb(199, 167, 170);
     font-size: 17px;
+    margin-right: 2cm;
   }
   
   #img {
     width: 100%;
-    height: 60%;
+    height: 100%;
   }
   
   #vote {
@@ -111,9 +115,10 @@ body {
     font-size: 17px;
     font-weight: bold;
     color: white;
-    padding: 5px 40px;
-    border-radius: 10px;
+    block-size: 4cm;
+    border-radius: 100px;
     border-color: floralwhite;
+    margin-top: 54%
   }
   
   #vote:hover {
@@ -121,18 +126,16 @@ body {
   }
   
   .listItem {
+    background-color: black;
     color: white;
-    font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
     font-style: normal;
-    margin-right: 2cm;
-    padding: 5px 20px;
-    width: 100%;
     cursor: pointer;
-    text-align: left;
+    text-align: center;
+    margin-block-start: 2ch;
   }
   
   .listItem:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(12, 125, 230, 0.5);
   }
   
